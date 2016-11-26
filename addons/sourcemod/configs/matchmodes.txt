@@ -1,0 +1,18 @@
+"MatchModes"
+{
+	"Change Config (4v4)"
+	{
+		"confogl_plus"
+		{
+			"name" "Confogl+"
+		}
+		"confogl_plusplus"
+		{
+			"name" "Confogl++"
+		}
+		"promod"
+		{
+			"name" "Pro Mod 4.0.3"
+		}
+	}
+}

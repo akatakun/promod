@@ -1,0 +1,16 @@
+"CountryShow"
+{
+	"messages"
+	{
+		"playerjoin"		"{DEFAULT}Player {GREEN}{PLAYERNAME} {DEFAULT}[{OLIVE}{STEAMID}{DEFAULT}] {DEFAULT}joined from {GREEN}{PLAYERCOUNTRYSHORT}"
+		"playerdisc"		"{DEFAULT}Player {GREEN}{PLAYERNAME} {DEFAULT}left - {GREEN}{DISC_REASON}"
+		"randomdisc1"		"If sm_ca_randomdisc = 1 (default), then 'playerdisc' will be used"
+		"randomdisc2"		"If sm_ca_randomdisc >= 2, then the 'randomdiscN' messages will be used instead of 'playerdisc'"
+		"randomdisc3"		"Add as many random messages as the value of sm_ca_randomdisc is (if >= 2), else no message might appear"
+	}
+	"messages_admin"
+	{
+		"playerjoin"		"{PLAYERTYPE} {GREEN}{PLAYERNAME} {DEFAULT}<{LIGHTGREEN}{STEAMID}{DEFAULT}> connected from country {GREEN}{PLAYERCOUNTRYSHORT} {DEFAULT}({LIGHTGREEN}{PLAYERCOUNTRYSHORT}{DEFAULT}), IP {GREEN}{PLAYERIP}"
+		"playerdisc"		"{PLAYERTYPE} {GREEN}{PLAYERNAME} {DEFAULT}<{LIGHTGREEN}{STEAMID}{DEFAULT}> from country {GREEN}{PLAYERCOUNTRYSHORT} {DEFAULT}({LIGHTGREEN}{PLAYERCOUNTRYSHORT}{DEFAULT}) disconnected from IP {GREEN}{PLAYERIP}{GREEN}reason: {DEFAULT}{DISC_REASON}"
+	}
+}
